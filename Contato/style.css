@@ -11,6 +11,9 @@ body {
 }
 
 .contact{
+
+    display: flex;  
+    flex-direction: column;
     background-color: #2b818e;
 }
 
@@ -33,7 +36,7 @@ nav ul {
 }
 
 .banner {
-    width: 100%;
+    width: 57%;
 }
 
 .container {

@@ -16,3 +16,34 @@ nav ul {
     display: flex;
     gap: 1rem;
 }
+
+/* Header e Nav */
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-logo{
+    width: 100%;
+    display: flex;
+}
+
+
+.content {
+    width: 90%;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.content h4 {
+    text-align: center;
+
+}

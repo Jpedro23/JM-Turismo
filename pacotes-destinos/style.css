@@ -1,21 +1,33 @@
+/*----------------------- reset --------------------*/
 * {
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: "poppins", sans-serif;
 }
 
-body {
-    font-family:"popggin", sans-serif ;
+/*----------------------- Header --------------------*/
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-
-/* ver todas as bordas*/
 
 nav ul {
     display: flex;
     gap: 1rem;
+}
+
+/*----------------------- main --------------------*/
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-forms {
@@ -33,17 +45,21 @@ nav ul {
 
 }
 
-.input-preenchimento {
-    width: 320px;
+/*----------------------- select --------------------*/
+
+select{
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+    margin: 0.5rem;
+    border-radius: .3rem;
+    border: none;
+    background-color: #838383;
+    color: #fff;
 }
 
-.input-preenchimento label, p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*----------------------- inputs --------------------*/
 
 input {
     display: flex;
@@ -57,17 +73,24 @@ input {
     color: #fff;
 }
 
+.input-preenchimento {
+    width: 320px;
+    display: flex;
+    gap: 1rem;
+}
+
+.input-preenchimento label,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .input-preenchimento ::placeholder {
     color: #fff;
 }
 
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/*----------------------- formulario --------------------*/
 
 form {
     width: 100%;
@@ -77,15 +100,9 @@ form {
     border-radius: .5rem;
 }
 
-form img{
+form img {
     border-radius: 1rem;
 }
-
-
-
-
-
-
 
 textarea {
     max-width: 320px;
@@ -95,6 +112,9 @@ textarea {
     min-height: 7rem;
     max-height: 10rem;
 }
+
+
+/*----------------------- link --------------------*/
 
 .link-nav {
     width: 200px;
@@ -118,13 +138,13 @@ textarea {
     border: .1rem black solid;
 }
 
+/*----------------------- textarea e @midia --------------------*/
 
-.textarea-p{
+.textarea-p {
     display: flex;
 
     align-items: center;
 }
-
 
 @media (max-width:900px) {
     form {
